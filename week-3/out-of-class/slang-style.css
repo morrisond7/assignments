@@ -1,0 +1,43 @@
+.body {
+  font-family: 'Average Sans', sans-serif;
+font-family: 'Goudy Bookletter 1911', serif;
+font-size: 20px;
+line-height: 1.5;
+padding-left: 2em;
+padding-right: 2em;
+}
+
+.signed-by {
+  font-variant: small-caps;
+}
+
+.dd:lang(ja) {
+  font-family: 'Osaka';
+}
+
+.dt {
+ font-variant: small-caps; 
+}
+
+.figure {
+  background-color: #FCF7D3;
+  align-content: center;
+}
+
+.blockquote {
+  background-color: #FCF7D3;
+}
+
+.Sam {
+  background-color: #DEE8BE;
+}
+
+.a:link {
+  text-decoration-color: #0000FF;
+  text-decoration: none;
+  
+}
+
+.a:hover {
+  text-decoration: underline;
+}
