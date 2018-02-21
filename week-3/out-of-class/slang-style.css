@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: 'Average Sans', sans-serif;
 font-family: 'Goudy Bookletter 1911', serif;
 font-size: 20px;
@@ -7,37 +7,37 @@ padding-left: 2em;
 padding-right: 2em;
 }
 
-.signed-by {
+signed-by {
   font-variant: small-caps;
 }
 
-.dd:lang(ja) {
+:lang(ja) {
   font-family: 'Osaka';
 }
 
-.dt {
+dt {
  font-variant: small-caps; 
 }
 
-.figure {
+figure {
   background-color: #FCF7D3;
   align-content: center;
 }
 
-.blockquote {
+blockquote {
   background-color: #FCF7D3;
 }
 
-.Sam {
+Sam {
   background-color: #DEE8BE;
 }
 
-.a:link {
+a:link {
   text-decoration-color: #0000FF;
   text-decoration: none;
   
 }
 
-.a:hover {
+a:hover {
   text-decoration: underline;
 }
