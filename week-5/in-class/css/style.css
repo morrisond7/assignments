@@ -12,18 +12,29 @@ body {
 h1, h2, h3, nav {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
+  text-transform: capitalize;
 }
 
 h1, h2, h3 {
     text-transform: uppercase;
     margin-bottom: .5rem;
+  text-transform: capitalize;
+}
+
+.moral {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.fables h2 {
+ text-indent: -10000px;
 }
 
 /** Header **/
 header {
     background-color: #6d6fae;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 6rem 1rem 6rem;
+  text-transform: capitalize;
 }
 
 header img {
@@ -40,6 +51,8 @@ nav {
     background-color: #6d6fae;
     color: white;
     position: relative;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 nav div.dropdown {
@@ -53,7 +66,7 @@ nav div.dropdown {
 .dropdown-content a {
     display: block;
     text-decoration: none;
-    color: #eaebf7;
+    color: black;
     margin-bottom: .5rem;
 }
 
@@ -81,12 +94,16 @@ div.dropbtn {
 
 
 /** Stuff in the main body **/
-article p {
-    margin-bottom: 1em;
+#maincontent {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  display: flex;
+  
 }
 
-.moral {
-    font-style: italic;
+article p {
+    margin-bottom: 1em;
+
 }
 
 .link-to-source {
@@ -97,6 +114,32 @@ article p {
     background-color: #fffbd5;
     padding: 1em;
     margin-bottom: 2rem
+    width: 25rem;
+}
+
+.fables {
+  min-width: 50%;
+  text-align: center;
+}
+
+article {
+  text-align: left;
+}
+
+.scroll {
+  width: 12.5rem;
+}
+
+#boys-and-frog {
+  float: left;
+}
+
+#tortoise-and-ducks {
+  float: right;
+}
+
+#belling-the-cat {
+  float: left;
 }
 
 
@@ -104,4 +147,7 @@ article p {
 footer {
     background-color: #cfc354;
     color: #fffbd5;
+    padding-left: 6rem;
+  padding-right: 6rem;
+  text-align: center;
 }
