@@ -9,6 +9,10 @@ body {
     font-size: 16px;
 }
 
+#skip {
+  text-indent: -10000px;
+}
+
 h1, h2, h3, nav {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
@@ -101,6 +105,8 @@ div.dropbtn {
   
 }
 
+
+
 article p {
     margin-bottom: 1em;
 
@@ -151,3 +157,11 @@ footer {
   padding-right: 6rem;
   text-align: center;
 }
+
+.hidden 
+{position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+  overflow:hidden;}
